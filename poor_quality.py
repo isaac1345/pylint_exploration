@@ -1,13 +1,12 @@
-# An inconsistent or otherwise poor script
-
-import shutil
-import os
+'''
+Is this a docstring?
+'''
 
 
 test_list = ["foo", "bar"]
 
-for i in range(len(test_list)):
-    print(test_list[i])
+for count, value in enumerate(test_list):
+    print(value)
 
 
 print("end script")
